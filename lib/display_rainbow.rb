@@ -6,6 +6,5 @@ def display_rainbow(colors)
   puts "I: #{colors[6]}, V: #{colors[7]}"
 end
 
-colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
-display_rainbow(colors)
+display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
